@@ -1,0 +1,107 @@
+.container-library {
+  max-height: 100vh;
+}
+
+#video a {
+  display: block;
+  width: 25%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  float: left;
+  cursor: pointer;
+  text-decoration: none;
+  outline: 0;
+}
+
+#videos a:hover {
+  opacity: 0.7;
+  height: auto;
+}
+.card .pointer {
+  cursor: pointer;
+}
+
+#videos a img {
+  width: 100%;
+}
+
+#overlay {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: none;
+}
+
+#overlay .modal {
+  background: #fff;
+  border-radius: 5px;
+  width: 90%;
+  margin: 100px auto;
+  max-width: 800px;
+  min-height: 100px;
+  position: relative;
+  padding: 30px 20px 15px;
+}
+
+#overlay .modal #close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+#overlay iframe {
+  width: 100%;
+}
+.video-lib {
+  border-radius: 20px;
+  background-color: var(--blue);
+}
+
+.currentPlaying {
+  overflow: hidden;
+  height: 70px;
+}
+.video-icon {
+  border: 3px solid black;
+  max-height: 2.9rem;
+  cursor: pointer;
+}
+
+.playlistItem {
+  max-height: 30rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: var(--blue);
+}
+.VideoTitle {
+  background-color: var(--blue);
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+.VideoMenu {
+  width: 20rem;
+}
+.video-info h4 {
+  color: var(--blue);
+  font-size: 20px;
+  font-weight: 500;
+}
+.video-info {
+  overflow-x: hidden;
+}
+.display-6 {
+  background-color: var(--blue);
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}

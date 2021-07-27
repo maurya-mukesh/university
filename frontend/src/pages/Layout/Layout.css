@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  display: flex;
+  flex-direction: row;
+}
+.main-area {
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+}
+.topbar {
+  margin-right: 0;
+  position: relative;
+}
+.router {
+  position: absolute; 
+  align-items: stretch;
+  margin-top: 4.3em !important;
+  background-color: #f0f2f5;
+  height: 100% !important;
+  width: 100% !important;
+  overflow-y: scroll; 
+  overflow-x: scroll;
+  margin-left: 0%;
+  max-height: 90.3%;
+  /* max-width: 80.5%; */
+  max-width:  100%;
+}
+
